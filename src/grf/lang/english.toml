@@ -48,6 +48,9 @@ base = "Gung-ho primary production level (%)"
 [STR_PARAM_DESC_PRIMARY_LEVEL_BONUS]
 base = "Production at farms, mines and similar industries when supply requirements are met (as percentage of {SILVER}Normal {BLACK}production level)."
 
+[STR_PARAM_VALUE_ECONOMIES_LESSER_POLAND]
+base = "Lesser Poland"
+
 [STR_PARAM_VALUE_ECONOMIES_BASIC_TEMPERATE]
 base = "Temperate Basic"
 
@@ -59,6 +62,9 @@ base = "Tropic Basic"
 
 [STR_PARAM_VALUE_ECONOMIES_IN_A_HOT_COUNTRY]
 base = "In A Hot Country"
+
+[STR_PARAM_VALUE_ECONOMIES_MILD_MILD_WEST]
+base = "Mild Mild West"
 
 [STR_PARAM_VALUE_ECONOMIES_STEELTOWN]
 base = "Steeltown"
@@ -141,6 +147,9 @@ base = "Building Materials"
 [STR_CARGO_NAME_CARBON_BLACK]
 base = "Carbon Black"
 
+[STR_CARGO_NAME_CANOLA]
+base = "Canola"
+
 [STR_CARGO_NAME_CASSAVA]
 base = "Cassava"
 
@@ -185,6 +194,9 @@ base = "Copper Concentrate"
 
 [STR_CARGO_NAME_EDIBLE_OIL]
 base = "Edible Oil"
+
+[STR_CARGO_NAME_ELECTRICAL_MACHINES]
+base = "Electrical Machines"
 
 [STR_CARGO_NAME_ELECTRICAL_PARTS]
 base = "Electrical Parts"
@@ -249,6 +261,9 @@ base = "Limestone"
 [STR_CARGO_NAME_LOGS]
 base = "Logs"
 
+[STR_CARGO_NAME_LUMBER]
+base = "Lumber"
+
 [STR_CARGO_NAME_LYE]
 base = "Sodium Hydroxide"
 
@@ -296,6 +311,9 @@ base = "Peat"
 
 [STR_CARGO_NAME_PETROL]
 base = "Petroleum Fuels"
+
+[STR_CARGO_NAME_PIPE]
+base = "Pipes"
 
 [STR_CARGO_NAME_PIPEWORK]
 base = "Storage Tanks & Pipework"
@@ -390,6 +408,9 @@ base = "Steel Tube"
 [STR_CARGO_NAME_STEEL_WIRE_ROD]
 base = "Steel Wire Rod"
 
+[STR_CARGO_NAME_STONE]
+base = "Stone"
+
 [STR_CARGO_NAME_STRUCTURAL_STEELWORK]
 base = "Structural Steel"
 
@@ -480,6 +501,9 @@ base = "{WEIGHT} of building materials"
 [STR_CARGO_UNIT_CARBON_BLACK]
 base = "{WEIGHT} of carbon black"
 
+[STR_CARGO_UNIT_CANOLA]
+base = "{WEIGHT} of canola"
+
 [STR_CARGO_UNIT_CASSAVA]
 base = "{WEIGHT} of cassava"
 
@@ -524,6 +548,9 @@ base = "{WEIGHT} of copper concentrate"
 
 [STR_CARGO_UNIT_EDIBLE_OIL]
 base = "{VOLUME} of edible oil"
+
+[STR_CARGO_UNIT_ELECTRICAL_MACHINES]
+base = "{WEIGHT} of electrical machines"
 
 [STR_CARGO_UNIT_ELECTRICAL_PARTS]
 base = "{WEIGHT} of electrical parts"
@@ -588,6 +615,9 @@ base = "{WEIGHT} of limestone"
 [STR_CARGO_UNIT_LOGS]
 base = "{WEIGHT} of logs"
 
+[STR_CARGO_UNIT_LUMBER]
+base = "{WEIGHT} of lumber"
+
 [STR_CARGO_UNIT_LYE]
 base = "{VOLUME} of sodium hydroxide"
 
@@ -644,6 +674,9 @@ base = "{VOLUME} of phosphoric acid"
 
 [STR_CARGO_UNIT_PIG_IRON]
 base = "{WEIGHT} of pig iron"
+
+[STR_CARGO_UNIT_PIPE]
+base = "{WEIGHT} of pipes"
 
 [STR_CARGO_UNIT_PIPEWORK]
 base = "{WEIGHT} of storage tanks & pipework"
@@ -728,6 +761,9 @@ base = "{WEIGHT} of steel tube"
 
 [STR_CARGO_UNIT_STEEL_WIRE_ROD]
 base = "{WEIGHT} of steel wire rod"
+
+[STR_CARGO_UNIT_STONE]
+base = "{WEIGHT} of stone"
 
 [STR_CARGO_UNIT_STRUCTURAL_STEELWORK]
 base = "{WEIGHT} of structural steel"
@@ -819,6 +855,9 @@ base = "{TINYFONT}BM"
 [STR_CID_CARBON_BLACK]
 base = "{TINYFONT}CB"
 
+[STR_CID_CANOLA]
+base = "{TINYFONT}CL"
+
 [STR_CID_CASSAVA]
 base = "{TINYFONT}CA"
 
@@ -863,6 +902,9 @@ base = "{TINYFONT}CC"
 
 [STR_CID_EDIBLE_OIL]
 base = "{TINYFONT}EO"
+
+[STR_CID_ELECTRICAL_MACHINES]
+base = "{TINYFONT}EM"
 
 [STR_CID_ELECTRICAL_PARTS]
 base = "{TINYFONT}EP"
@@ -924,6 +966,9 @@ base = "{TINYFONT}LS"
 [STR_CID_LOGS]
 base = "{TINYFONT}LG"
 
+[STR_CID_LUMBER]
+base = "{TINYFONT}LU"
+
 [STR_CID_LYE]
 base = "{TINYFONT}SY"
 
@@ -974,6 +1019,9 @@ base = "{TINYFONT}PT"
 
 [STR_CID_PIG_IRON]
 base = "{TINYFONT}PI"
+
+[STR_CID_PIPE]
+base = "{TINYFONT}PP"
 
 [STR_CID_PIPEWORK]
 base = "{TINYFONT}PW"
@@ -1064,6 +1112,9 @@ base = "{TINYFONT}ST"
 
 [STR_CID_STEEL_WIRE_ROD]
 base = "{TINYFONT}SW"
+
+[STR_CID_STONE]
+base = "{TINYFONT}SO"
 
 [STR_CID_STRUCTURAL_STEELWORK]
 base = "{TINYFONT}STSW"
@@ -1176,6 +1227,9 @@ base = "Assembly Plant"
 [STR_IND_SECTION_AND_BAR_MILL]
 base = "Section & Bar Mill"
 
+[STR_IND_BASICFARM]
+base = "Farm"
+
 [STR_IND_BASIC_OXYGEN_FURNACE]
 base = "Basic Oxygen Furnace"
 
@@ -1202,6 +1256,9 @@ base = "Builders Yard"
 
 [STR_IND_BULK_TERMINAL]
 base = "Bulk Terminal"
+
+[STR_IND_CANOLA_FIELD]
+base = "Canola Field"
 
 [STR_IND_CARBON_BLACK_PLANT]
 base = "Carbon Black Plant"
@@ -1272,6 +1329,9 @@ base = "Ferrochrome Smelter"
 [STR_IND_FERTILISER_PLANT]
 base = "Fertiliser Plant"
 
+[STR_IND_FACTORY]
+base = "Factory 0"
+
 [STR_IND_FACTORY_1]
 base = "Factory 1"
 
@@ -1308,6 +1368,9 @@ base = "Food Processing Plant"
 [STR_IND_FORGE_AND_FOUNDRY]
 base = "Steel Forge & Foundry"
 
+[STR_IND_FOUNDRY]
+base = "Foundry"
+
 [STR_IND_FURNITURE_FACTORY]
 base = "Furniture Factory"
 
@@ -1332,6 +1395,9 @@ base = "Steel Mill"
 [STR_IND_IRON_WORKS]
 base = "Iron Works"
 
+[STR_IND_JUNKYARD]
+base = "Scrap Yard"
+
 [STR_IND_SCRAP_YARD]
 base = "Scrap Yard"
 
@@ -1347,14 +1413,26 @@ base = "Limestone Mine"
 [STR_IND_LIQUIDS_TERMINAL]
 base = "Liquids Terminal"
 
+[STR_IND_LUMBER_YARD]
+base = "Timber Yard"
+
+[STR_IND_MACHINE_SHOP]
+base = "Machine Shop"
+
 [STR_IND_MACHINE_WORKS]
 base = "Machine Works"
 
 [STR_IND_MANGANESE_MINE]
 base = "Manganese Mine"
 
+[STR_IND_METAL_FABRICATION_PLANT]
+base = "Metal Fabrication Plant"
+
 [STR_IND_METAL_WORKS]
 base = "Metal Works"
+
+[STR_IND_METAL_WORKSHOP]
+base = "Metal Workshop"
 
 [STR_IND_MIXEDFARM]
 base = "Mixed Farm"
@@ -1455,6 +1533,9 @@ base = "Soda Ash Mine"
 [STR_IND_SOLVAY_PLANT]
 base = "Solvay Plant"
 
+[STR_IND_STEEL_FINISHING_PLANT]
+base = "Steel Finishing Plant"
+
 [STR_IND_STOCKYARD]
 base = "Stockyard"
 
@@ -1494,6 +1575,9 @@ base = "Tyre Plant"
 [STR_IND_VINEYARD]
 base = "Vineyard"
 
+[STR_IND_VEHICLE_DEALER]
+base = "Vehicle Dealer"
+
 [STR_IND_VEHICLE_DISTRIBUTOR]
 base = "Vehicle Distributor"
 
@@ -1523,6 +1607,9 @@ base = "{}{BLACK}Location: {YELLOW}Cannot be funded on snow."
 
 [STR_FUND_HERDING_COOP]
 base = "{}{BLACK}Location: {YELLOW}Can only be funded on snow."
+
+[STR_FUND_MIXED_FARM]
+base = "{}{BLACK}Location: {YELLOW}Cannot be funded on snow or in deserts."
 
 [STR_FUND_ORCHARD_PIGGERY]
 base = "{}{BLACK}Location: {YELLOW}Cannot be funded on snow or in deserts."
@@ -1580,6 +1667,9 @@ base = "Pressings"
 
 [STR_STATION_BRINE_WORKS]
 base = "Brine Works"
+
+[STR_STATION_CANOLA_FIELD]
+base = "Canola Fields"
 
 [STR_STATION_CASTINGS]
 base = "Castings"
@@ -1826,6 +1916,9 @@ base = "Wells"
 
 [STR_STATION_WINERY]
 base = "Winery"
+
+[STR_STATION_VEHICLE_DEALER]
+base = "Truck Lot"
 
 [STR_STATION_VEHICLE_DISTRIBUTOR]
 base = "Truck Lot"

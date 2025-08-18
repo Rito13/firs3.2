@@ -35,6 +35,14 @@ industry.enable_in_economy(
 )
 
 industry.enable_in_economy(
+    "LESSER_POLAND",
+    prod_cargo_types_with_output_ratios=[
+        ("BDMT", 4),
+        ("MNSP", 4),
+    ],
+)
+
+industry.enable_in_economy(
     "STEELTOWN",
     accept_cargos_with_input_ratios=[
         # float glass plant

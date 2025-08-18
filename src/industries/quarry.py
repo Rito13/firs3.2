@@ -18,7 +18,6 @@ industry = IndustryPrimaryExtractive(
     sprites_complete=True,
 )
 
-
 industry.enable_in_economy(
     "STEELTOWN",
     prod_cargo_types_with_multipliers=[
@@ -38,6 +37,14 @@ industry.enable_in_economy(
 
 industry.enable_in_economy(
     "IN_A_HOT_COUNTRY",
+    prod_cargo_types_with_multipliers=[
+        ("SAND", 14),
+        ("GRVL", 14),
+    ],
+)
+
+industry.enable_in_economy(
+    "LESSER_POLAND",
     prod_cargo_types_with_multipliers=[
         ("SAND", 14),
         ("GRVL", 14),

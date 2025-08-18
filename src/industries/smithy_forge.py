@@ -3,7 +3,7 @@ from industry import IndustrySecondary, TileLocationChecks
 industry = IndustrySecondary(
     id="smithy_forge",
     accept_cargos_with_input_ratios=[
-        ("STEL", 8),
+        ("METL", 8),
     ],
     prod_cargo_types_with_output_ratios=[
         ("ENSP", 4),
@@ -22,6 +22,9 @@ industry = IndustrySecondary(
     sprites_complete=False,
 )
 
+industry.enable_in_economy(
+    "LESSER_POLAND",
+)
 
 industry.add_tile(
     id="smithy_forge_tile_1",

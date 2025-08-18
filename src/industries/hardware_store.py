@@ -25,6 +25,10 @@ industry.enable_in_economy(
     accept_cargo_types=["GOOD", "BDMT"],
 )
 industry.enable_in_economy(
+    "LESSER_POLAND",
+    accept_cargo_types=["GOOD", "BDMT"],
+)
+industry.enable_in_economy(
     "STEELTOWN",
     accept_cargo_types=["HWAR"],
     vulcan_config={
@@ -36,6 +40,7 @@ industry.enable_in_economy(
         }
     },
 )
+
 
 
 industry.add_tile(

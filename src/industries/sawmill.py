@@ -23,12 +23,17 @@ industry = IndustrySecondary(
     sprites_complete=True,
 )
 
+
 industry.enable_in_economy(
     "IN_A_HOT_COUNTRY",
 )
 industry.enable_in_economy(
     "BASIC_ARCTIC",
 )
+industry.enable_in_economy(
+    "LESSER_POLAND",
+)
+
 
 industry.add_tile(
     id="sawmill_tile_1",

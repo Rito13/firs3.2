@@ -22,6 +22,9 @@ industry = IndustrySecondary(
     sprites_complete=False,
 )
 
+industry.enable_in_economy(
+    "LESSER_POLAND",
+)
 
 industry.add_tile(
     id="biorefinery_tile_1",

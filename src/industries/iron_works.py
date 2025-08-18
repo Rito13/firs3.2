@@ -8,7 +8,7 @@ industry = IndustrySecondary(
         ("SAND", 2),
     ],
     prod_cargo_types_with_output_ratios=[
-        ("STEL", 8),
+        ("METL", 8),
     ],
     prob_in_game="3",
     prob_map_gen="5",
@@ -22,6 +22,9 @@ industry = IndustrySecondary(
     sprites_complete=False,
 )
 
+industry.enable_in_economy(
+    "LESSER_POLAND",
+)
 
 # not animated tiles
 industry.add_tile(

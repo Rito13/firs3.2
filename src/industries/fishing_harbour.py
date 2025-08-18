@@ -2,9 +2,7 @@ from industry import IndustrySecondary, TileLocationChecks
 
 industry = IndustrySecondary(
     id="fishing_harbour",
-    accept_cargos_with_input_ratios=[
-        ("FISH", 6),
-    ],
+    accept_cargos_with_input_ratios=[],
     prod_cargo_types_with_output_ratios=[
         ("FOOD", 8),
     ],
@@ -29,15 +27,23 @@ industry = IndustrySecondary(
 
 industry.enable_in_economy(
     "BASIC_TEMPERATE",
+    accept_cargos_with_input_ratios=[("FISH", 8)],
 )
 industry.enable_in_economy(
     "BASIC_TROPIC",
+    accept_cargos_with_input_ratios=[("FISH", 8)],
 )
 industry.enable_in_economy(
     "BASIC_ARCTIC",
+    accept_cargos_with_input_ratios=[("FISH", 8)],
 )
-
-# ['IN_A_HOT_COUNTRY'].enabled = True
+industry.enable_in_economy(
+    "LESSER_POLAND",
+    accept_cargos_with_input_ratios=[
+        ("FISH", 6),
+        ('MNSP', 2)
+    ],
+)
 
 industry.add_tile(
     id="fishing_harbour_tile_1",

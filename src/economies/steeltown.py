@@ -2,7 +2,7 @@ from economy import Economy
 
 economy = Economy(
     id="STEELTOWN",
-    numeric_id=5,
+    numeric_id=15,
     cargos=[
         "acid",
         "aggregates",
@@ -55,6 +55,7 @@ economy = Economy(
         "steel_slab",
         "steel_tube",
         "steel_wire_rod",
+        "stone",
         "sulphur",
         "tyre_cord",
         "tyres",

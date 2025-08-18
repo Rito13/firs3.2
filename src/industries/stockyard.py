@@ -20,6 +20,15 @@ industry = IndustrySecondary(
 )
 
 industry.enable_in_economy(
+    "LESSER_POLAND",
+    accept_cargos_with_input_ratios=[
+        ("LVST", 5),
+        ('MNSP', 2),
+        ('SALT', 1),
+    ],
+)
+
+industry.enable_in_economy(
     "BASIC_TEMPERATE",
     accept_cargos_with_input_ratios=[
         ("LVST", 6),

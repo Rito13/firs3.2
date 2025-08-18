@@ -21,10 +21,7 @@ industry = IndustrySecondary(
 )
 
 industry.enable_in_economy("BASIC_TROPIC")
-industry.economy_variations["BASIC_TROPIC"].accept_cargos_with_input_ratios = [
-    ("GRAI", 6)
-]
-
+industry.enable_in_economy("LESSER_POLAND")
 
 industry.enable_in_economy(
     "IN_A_HOT_COUNTRY",

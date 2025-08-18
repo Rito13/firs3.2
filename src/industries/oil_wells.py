@@ -19,11 +19,15 @@ industry = IndustryPrimaryExtractive(
     sprites_complete=True,
 )
 
+
 industry.enable_in_economy(
     "BASIC_TROPIC",
 )
 industry.enable_in_economy(
     "IN_A_HOT_COUNTRY",
+)
+industry.enable_in_economy(
+    "LESSER_POLAND",
 )
 
 industry.add_tile(

@@ -4,6 +4,7 @@ industry = IndustryPrimaryOrganic(
     id="sheep_farm",
     prod_cargo_types_with_multipliers=[
         ("LVST", 12),
+        ("WOOL", 14),
     ],
     prob_in_game="4",
     prob_map_gen="11",
@@ -17,6 +18,10 @@ industry = IndustryPrimaryOrganic(
     provides_snow=True,
     primary_production_random_factor_set="wide_range",
     sprites_complete=False,
+)
+
+industry.enable_in_economy(
+    "LESSER_POLAND",
 )
 
 industry.add_tile(

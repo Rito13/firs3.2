@@ -2,7 +2,7 @@ from industry import IndustryPrimaryExtractive, TileLocationChecks
 
 industry = IndustryPrimaryExtractive(
     id="clay_pit",
-    prod_cargo_types_with_multipliers=[("KAOL", 16)],
+    prod_cargo_types_with_multipliers=[],
     prob_in_game="4",
     prob_map_gen="7",
     map_colour="166",
@@ -20,9 +20,15 @@ industry = IndustryPrimaryExtractive(
 
 industry.enable_in_economy(
     "BASIC_TEMPERATE",
+    prod_cargo_types_with_multipliers=[("KAOL", 16)],
     locate_in_specific_biomes=[
         "more_south_west",
     ],
+)
+
+industry.enable_in_economy(
+    "LESSER_POLAND",
+    prod_cargo_types_with_multipliers=[("CLAY", 16)],
 )
 
 # 2 tiles for this industry: pit outer tile cannot be on slopes; pit inner tiles and processor tiles can be

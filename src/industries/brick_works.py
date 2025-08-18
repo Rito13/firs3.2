@@ -22,7 +22,9 @@ industry = IndustrySecondary(
     sprites_complete=False,
 )
 
-# unused currently
+industry.enable_in_economy(
+    "LESSER_POLAND",
+)
 
 industry.add_tile(
     id="brick_works_tile_1",

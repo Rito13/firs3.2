@@ -2,9 +2,9 @@ from economy import Economy
 
 economy = Economy(
     id="IN_A_HOT_COUNTRY",
-    numeric_id=3,
+    numeric_id=13,
     cargos=[
-        "aggregates",
+        "stone",
         "alcohol",
         "building_materials",
         "cassava",
@@ -32,7 +32,9 @@ economy = Economy(
         "phosphate",
         "rubber",
         "sand",
+        "textiles",
         "timber",
+        "yarn",
     ],
     cargoflow_graph_tuning={
         "group_edges_subgraphs": [],

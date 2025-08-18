@@ -3,9 +3,7 @@ from industry import IndustrySecondary, TileLocationChecks
 industry = IndustrySecondary(
     id="paper_mill",
     accept_cargos_with_input_ratios=[],
-    prod_cargo_types_with_output_ratios=[
-        ("PAPR", 8),
-    ],
+    prod_cargo_types_with_output_ratios=[],
     prob_in_game="3",
     prob_map_gen="5",
     substitute="14",
@@ -24,11 +22,27 @@ industry = IndustrySecondary(
 )
 
 industry.enable_in_economy(
+    "LESSER_POLAND",
+    accept_cargos_with_input_ratios=[
+        ("CLAY", 2),
+        ("WOOD", 4),
+        ("RFPR", 2),
+    ],
+    prod_cargo_types_with_output_ratios=[
+        ("GOOD", 4),
+        ("MNSP", 4),
+    ],
+)
+
+industry.enable_in_economy(
     "BASIC_ARCTIC",
     accept_cargos_with_input_ratios=[
         ("KAOL", 2),
         ("WOOD", 4),
         ("SULP", 2),
+    ],
+    prod_cargo_types_with_output_ratios=[
+        ("PAPR", 8),
     ],
 )
 

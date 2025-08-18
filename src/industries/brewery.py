@@ -2,10 +2,7 @@ from industry import IndustrySecondary, TileLocationChecks
 
 industry = IndustrySecondary(
     id="brewery",
-    accept_cargos_with_input_ratios=[
-        ("FRUT", 4),
-        ("MAIZ", 4),
-    ],
+    accept_cargos_with_input_ratios=[],
     prod_cargo_types_with_output_ratios=[
         ("BEER", 8),
     ],
@@ -23,7 +20,20 @@ industry = IndustrySecondary(
 )
 
 industry.enable_in_economy(
+    "LESSER_POLAND",
+    accept_cargos_with_input_ratios=[
+        ("MNSP", 2),
+        ("FRUT", 3),
+        ("GRAI", 3),
+    ],
+)
+
+industry.enable_in_economy(
     "IN_A_HOT_COUNTRY",
+    accept_cargos_with_input_ratios=[
+        ("FRUT", 4),
+        ("MAIZ", 4),
+    ],
 )
 
 industry.add_tile(

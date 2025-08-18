@@ -108,6 +108,7 @@ class Cargo(object):
                     )
 
     def get_numeric_id(self, economy):
+#        print(self.id,economy.id)
         return self.economy_variations[economy].get("numeric_id")
 
     def get_price_factor(self, economy):

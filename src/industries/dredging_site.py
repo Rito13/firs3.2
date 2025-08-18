@@ -24,6 +24,10 @@ industry.enable_in_economy(
 )
 
 industry.enable_in_economy(
+    "LESSER_POLAND",
+)
+
+industry.enable_in_economy(
     "STEELTOWN",
     prod_cargo_types_with_multipliers=[
         ("GRVL", 17),

@@ -2,16 +2,8 @@ from industry import IndustrySecondary, TileLocationChecks
 
 industry = IndustrySecondary(
     id="blast_furnace",
-    accept_cargos_with_input_ratios=[
-        ("IORE", 3),
-        ("COKE", 3),
-        ("LIME", 2),
-    ],
-    prod_cargo_types_with_output_ratios=[
-        ("IRON", 4),
-        ("CSTI", 2),
-        ("SLAG", 2),
-    ],
+    accept_cargos_with_input_ratios=[],
+    prod_cargo_types_with_output_ratios=[],
     prob_in_game="0",  # do not build during gameplay
     prob_map_gen="3",
     map_colour="10",
@@ -24,7 +16,30 @@ industry = IndustrySecondary(
 )
 
 industry.enable_in_economy(
+    "LESSER_POLAND",
+    accept_cargos_with_input_ratios=[
+        ("IORE", 3),
+        ("COAL", 2),
+        ("SCMT", 3),
+    ],
+    prod_cargo_types_with_output_ratios=[
+        ("METL", 7),
+        ("SULP", 1),
+    ],
+)
+
+industry.enable_in_economy(
     "STEELTOWN",
+    accept_cargos_with_input_ratios=[
+        ("IORE", 3),
+        ("COKE", 3),
+        ("LIME", 2),
+    ],
+    prod_cargo_types_with_output_ratios=[
+        ("IRON", 4),
+        ("CSTI", 2),
+        ("SLAG", 2),
+    ],
     locate_in_specific_biomes=[
         "exclude_map_edges",
     ],

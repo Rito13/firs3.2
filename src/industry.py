@@ -2020,6 +2020,7 @@ class Industry(object):
             primary_production_random_factor_set = self.get_property(
                 "primary_production_random_factor_set", economy
             )
+#            print(global_constants.primary_production_random_factor_sets,primary_production_random_factor_set,self.id)
             params = [
                 self.get_perm_num("base_prod_factor"),
                 # we want the index of the primary_production_random_factor_set so we can switch on it in nml
@@ -2634,6 +2635,8 @@ class IndustrySecondary(Industry):
 
     def get_accepted_cargo_labels_by_economy(self, economy):
         # method used here for (1) guarding against invalid values (2) so that it can be over-ridden by industry subclasses as needed
+        if self.get_property("accept_cargos_with_input_ratios", economy) == None:
+        	print(self.id, economy.id)
         accept_cargo_types = [
             i[0] for i in self.get_property("accept_cargos_with_input_ratios", economy)
         ]

@@ -18,10 +18,14 @@ industry = IndustryTertiary(
     sprites_complete=True,
 )
 
-
 industry.enable_in_economy(
     "BASIC_ARCTIC",
     accept_cargo_types=["PEAT"],
+)
+
+industry.enable_in_economy(
+    "LESSER_POLAND",
+    accept_cargo_types=["COAL"],
 )
 
 industry.add_tile(

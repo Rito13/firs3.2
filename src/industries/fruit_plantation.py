@@ -24,6 +24,10 @@ industry.enable_in_economy(
     "IN_A_HOT_COUNTRY",
 )
 
+industry.enable_in_economy(
+    "LESSER_POLAND",
+)
+
 industry.add_tile(
     id="fruit_plantation_tile_1",
     foundations="return CB_RESULT_NO_FOUNDATIONS",

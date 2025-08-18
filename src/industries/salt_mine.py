@@ -4,7 +4,7 @@ industry = IndustryPrimaryExtractive(
     id="salt_mine",
     prod_cargo_types_with_multipliers=[
         ("SALT", 22),
-        ("ENUM", 4),
+        #("ENUM", 4),
     ],
     prob_in_game="4",
     prob_map_gen="7",
@@ -19,6 +19,9 @@ industry = IndustryPrimaryExtractive(
     sprites_complete=False,
 )
 
+industry.enable_in_economy(
+    "LESSER_POLAND",
+)
 
 industry.add_tile(
     id="salt_mine_tile_1",

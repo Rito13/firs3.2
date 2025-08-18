@@ -30,6 +30,10 @@ industry.enable_in_economy(
 )
 
 industry.enable_in_economy(
+    "LESSER_POLAND",
+)
+
+industry.enable_in_economy(
     "BASIC_TROPIC",
 )
 

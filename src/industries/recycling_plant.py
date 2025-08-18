@@ -18,8 +18,12 @@ industry = IndustrySecondary(
     fund_cost_multiplier="118",
     intro_year=1978,
     provides_snow=True,
+    sprites_complete=False,
 )
 
+industry.enable_in_economy(
+    "LESSER_POLAND",
+)
 
 industry.add_tile(
     id="recycling_plant_tile_1",

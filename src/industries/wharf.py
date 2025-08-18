@@ -20,6 +20,15 @@ industry = IndustryPrimaryPort(
 )
 
 industry.enable_in_economy(
+    "LESSER_POLAND",
+    accept_cargo_types=[
+        'FOOD', 'FRUT', 'BEER'
+    ],
+    prod_cargo_types_with_multipliers=[
+    ],
+)
+
+industry.enable_in_economy(
     "BASIC_ARCTIC",
     accept_cargo_types=[
         "BOOM",

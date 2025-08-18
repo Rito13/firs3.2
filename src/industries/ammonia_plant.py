@@ -5,11 +5,13 @@ from industry import IndustrySecondary, TileLocationChecks
 industry = IndustrySecondary(
     id="ammonia_plant",
     accept_cargos_with_input_ratios=[
-        ("NAPH", 8),
+        ('RFPR', 3),
+        ('SALT', 2),
+        ('SULP', 3),
     ],
     prod_cargo_types_with_output_ratios=[
-        ("NH3_", 6),
-        ("NIAC", 2),
+        ("ENSP", 4),
+        ("FMSP", 4),
     ],
     prob_in_game="3",
     prob_map_gen="5",
@@ -30,6 +32,10 @@ industry.add_tile(
     location_checks=TileLocationChecks(
         require_effectively_flat=True, disallow_industry_adjacent=True
     ),
+)
+
+industry.enable_in_economy(
+    "LESSER_POLAND",
 )
 
 spriteset_ground = industry.add_spriteset(

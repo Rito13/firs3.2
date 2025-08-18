@@ -22,6 +22,17 @@ industry = IndustryPrimaryOrganic(
 )
 
 industry.enable_in_economy(
+    "LESSER_POLAND",
+    prod_cargo_types_with_multipliers=[
+        ("GRAI", 14),
+        ("SGBT", 14),
+    ],
+    locate_in_specific_biomes=[
+        "less_west",
+    ],
+)
+
+industry.enable_in_economy(
     "BASIC_TROPIC",
     prod_cargo_types_with_multipliers=[
         ("GRAI", 14),

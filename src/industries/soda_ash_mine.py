@@ -31,6 +31,10 @@ industry.enable_in_economy(
     },
 )
 
+industry.enable_in_economy(
+    "LESSER_POLAND",
+)
+
 industry.add_tile(
     id="soda_ash_mine_tile_1",
     animation_length=81,
@@ -224,6 +228,22 @@ industry.add_multi_tile_object(
 )
 
 industry.add_industry_layout(
+    id='soda_ash_mine_industry_layout_1',
+    layout=[(0, 0, 'soda_ash_mine_tile_1', 'soda_ash_mine_spritelayout_headgear_animated'),
+	    (1, 0, 'soda_ash_mine_tile_2', 'soda_ash_mine_spritelayout_misc_building_tanks')
+            ]
+)
+
+industry.add_industry_layout(
+    id='soda_ash_mine_industry_layout_2',
+    layout=[(0, 0, 'soda_ash_mine_tile_1', 'soda_ash_mine_spritelayout_headgear_animated'),
+            (0, 1, 'soda_ash_mine_tile_2', 'soda_ash_mine_spritelayout_winding_house')
+            ]
+)
+
+'''
+
+industry.add_industry_layout(
     id="soda_ash_mine_industry_layout_1",
     layout=[
         (0, 0, "soda_ash_mine_spritelayout_crusher_rear_part"),
@@ -268,7 +288,6 @@ industry.add_industry_layout(
         (2, 3, "soda_ash_mine_spritelayout_silo_conveyor"),
         (2, 4, "soda_ash_mine_spritelayout_ore_1"),
     ],
-)
 
 industry.add_industry_layout(
     id="soda_ash_mine_industry_layout_3",
@@ -325,3 +344,6 @@ industry.add_industry_layout(
         (2, 4, "soda_ash_mine_spritelayout_truck"),
     ],
 )
+
+'''
+

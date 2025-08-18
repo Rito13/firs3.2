@@ -28,6 +28,14 @@ industry.enable_in_economy(
     ],
 )
 
+industry.enable_in_economy(
+    "LESSER_POLAND",
+    accept_cargos_with_input_ratios=[
+    	("MNSP", 5),
+        ("MILK", 5),
+    ],
+)
+
 # tile with animation for flag
 industry.add_tile(
     id="dairy_tile_1",

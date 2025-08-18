@@ -25,6 +25,11 @@ industry.enable_in_economy(
         "less_south_west",
     ],
 )
+
+industry.enable_in_economy(
+    "LESSER_POLAND",
+)
+
 industry.enable_in_economy(
     "STEELTOWN",
     prob_map_gen="10",

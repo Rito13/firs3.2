@@ -20,7 +20,6 @@ industry = IndustryTertiary(
     sprites_complete=True,
 )
 
-
 industry.enable_in_economy(
     "STEELTOWN",
     prob_in_game="6",
@@ -42,9 +41,14 @@ industry.enable_in_economy(
         }
     },
 )
+
 industry.enable_in_economy(
     "IN_A_HOT_COUNTRY",
     prob_map_gen="14",
+)
+
+industry.enable_in_economy(
+    "LESSER_POLAND",
 )
 
 industry.add_tile(

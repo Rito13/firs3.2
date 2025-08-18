@@ -2,9 +2,7 @@ from industry import IndustryPrimaryExtractive, TileLocationChecks
 
 industry = IndustryPrimaryExtractive(
     id="pyrite_mine",
-    prod_cargo_types_with_multipliers=[
-        ("PORE", 20),
-    ],
+    prod_cargo_types_with_multipliers=[],
     prob_in_game="4",
     prob_map_gen="7",
     map_colour="181",
@@ -21,6 +19,17 @@ industry = IndustryPrimaryExtractive(
 
 industry.enable_in_economy(
     "BASIC_ARCTIC",
+    prod_cargo_types_with_multipliers=[
+        ("PORE", 20),
+    ],
+)
+
+industry.enable_in_economy(
+    "LESSER_POLAND",
+    prod_cargo_types_with_multipliers=[
+        ("SULP", 10),
+        ("ZINC", 10),
+    ],
 )
 
 industry.add_tile(

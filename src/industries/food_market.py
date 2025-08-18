@@ -24,10 +24,12 @@ industry = IndustryTertiary(
     sprites_complete=False,
 )
 
-industry.add_tile(
-    id="food_market_tile_1",
-    location_checks=TileLocationChecks(require_road_adjacent=True),
+industry.enable_in_economy(
+    "LESSER_POLAND",
 )
+
+industry.add_tile(id='food_market_tile_1',
+                  location_checks=TileLocationChecks(require_road_adjacent=True))
 
 spriteset_ground = industry.add_spriteset(
     type="pavement",

@@ -2,7 +2,7 @@ from economy import Economy
 
 economy = Economy(
     id="BASIC_TEMPERATE",
-    numeric_id=0,
+    numeric_id=10,
     cargos=[
         "alcohol",
         "chemicals",

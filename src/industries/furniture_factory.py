@@ -4,10 +4,10 @@ industry = IndustrySecondary(
     id="furniture_factory",
     accept_cargos_with_input_ratios=[
         ("WDPR", 6),
-        ("COAT", 2),
+        #("COAT", 2),
     ],
     prod_cargo_types_with_output_ratios=[
-        ("FURN", 8),
+        ("GOOD", 8),
     ],
     prob_in_game="7",
     prob_map_gen="8",
@@ -20,6 +20,9 @@ industry = IndustrySecondary(
     sprites_complete=False,
 )
 
+industry.enable_in_economy(
+    "LESSER_POLAND",
+)
 
 industry.add_tile(
     id="furniture_factory_tile_1",
